@@ -1,0 +1,76 @@
+body {
+    background: url(../images/bg-desktop.svg) center no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    width: 100vw;
+    height: 100vh;
+}
+.fundo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.logo {
+    margin: 50px;
+    margin-left: 70px;
+}
+.logo img {
+    width: 170px;
+}
+.ilustracao {
+    margin-left:70px;
+}
+.ilustracao img {
+    width: 550px;
+}
+.conteudo-do-site {
+    width: 30vw;
+    height: 36vh;
+    right: 18vw;
+    bottom: 32vh;
+    position: absolute;
+}
+.descricao-do-site h2{
+    font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+color: white;
+font-size: 35px;
+margin-bottom: 20px;
+}
+.descricao-do-site p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+}
+.botao-registrar {
+    margin-top: 18px;
+    height: 45px;
+    width: 150px;
+    border-radius: 100px;
+    border: 0;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 0 2px 8px #000;
+    cursor: pointer;
+}
+.botao-registrar:hover {
+    transform: scale(1.1);
+    background-color: rgba(128, 128, 128, 0.705);
+    color: white;
+}
+footer {
+    right: 6vw;
+    position: absolute;
+    display: flex;
+    bottom: 2vh;
+}
+.paginas {
+    width: 40px;
+    margin: 20px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}

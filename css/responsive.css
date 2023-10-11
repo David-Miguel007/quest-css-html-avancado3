@@ -1,0 +1,59 @@
+@media( max-width: 569px) {
+    body::-webkit-scrollbar {
+        display: none;
+    }
+    .fundo {
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .logo {
+        position: absolute;
+        margin: -50px;
+        top: 15vh;
+        left: 17vw;
+    }
+
+    .ilustracao {
+        left: -10vw;
+        position: relative;
+        top: -10vh;
+    }
+
+    .ilustracao img {
+        width: 90vw;
+    }
+    
+    .conteudo-do-site {
+        width: 66vw;
+        bottom: -6vh;
+        left: 15vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .descricao-do-site h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .descricao-do-site p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .botao-registrar {
+        width: 220px;
+        height: 42px;
+    }
+    
+    footer {
+        bottom: -28vh;
+        left: 16vw;
+    }
+}
